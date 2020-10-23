@@ -12,6 +12,9 @@
   },
   "author": "hirai <ryu1999827@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "LiCoDiff": "https://github.com/Hirai0827/LiCoDiff"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
