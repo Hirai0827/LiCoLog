@@ -1,0 +1,24 @@
+{
+  "name": "LicoLog",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "author": "hirai <ryu1999827@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/jest": "^26.0.15",
+    "babel-jest": "^26.6.0",
+    "jest": "^26.6.0",
+    "typescript": "^4.0.3"
+  }
+}
