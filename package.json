@@ -13,7 +13,8 @@
   "author": "hirai <ryu1999827@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "LiCoDiff": "https://github.com/Hirai0827/LiCoDiff"
+    "LiCoDiff": "https://github.com/Hirai0827/LiCoDiff",
+    "glslibrary": "https://github.com/Hirai0827/glslibrary"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
