@@ -1,4 +1,5 @@
 import {SoundData} from "./SoundData";
+import {GLSLmodule} from "glslibrary/build/glslibrary_core/data/GLSLmodule";
 
 export enum ShaderLanguageMode{
     GLSL,Shadertoy,Dynamis,Count
@@ -16,11 +17,13 @@ export class ShaderEditorSettings {
     timeLimit:number;
     pixelSize:PixelSize;
     textures:Array<string|null>;
+    data:{[name:string]:GLSLmodule};
     sound:SoundData|null;
     constructor(languageMode?:ShaderLanguageMode,compileMode?:ShaderCompileMode) {
         this.languageMode = languageMode? languageMode : ShaderLanguageMode.GLSL;
         this.compileMode = compileMode ? compileMode : ShaderCompileMode.Auto;
         this.textures = new Array<string>(4).fill(null);
+        this.data = {};
         this.pixelSize = 2;
         this.sound = null;
     }
