@@ -3,6 +3,7 @@ import {
     GLSLCommandType,
     GLSLEditorCommand
 } from "./GLSLEditorCommand";
+import {GLSLmodule} from "glslibrary/build/glslibrary_core/data/GLSLmodule";
 
 export class CodeLog {
     Data:ChangeData[];
@@ -12,6 +13,7 @@ export class CodeLog {
     description:string;
     initialCode:string;
     initialTextureURLs:Array<string|null>;
+    libs:{[name:string]:GLSLmodule};
     timeLimit:number;
     constructor(shaderLanguageMode:ShaderLanguageMode,shaderCompileMode:ShaderCompileMode,title:string="",description:string="",initialCode:string="",Data:Array<ChangeData> = new Array<ChangeData>(),initialTextureURLs:Array<string|null> = new Array<string|null>(4).fill(null)){
         this.Data = Data;
