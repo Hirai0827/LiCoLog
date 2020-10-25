@@ -2156,7 +2156,7 @@ globals@^11.1.0:
 
 "glslibrary@https://github.com/Hirai0827/glslibrary":
   version "1.0.0"
-  resolved "https://github.com/Hirai0827/glslibrary#9c9dc100eebe8effdb3e47b3dd6eb99729ff52a0"
+  resolved "https://github.com/Hirai0827/glslibrary#db5a18a287c593d1c214c82bf7e8f0dec6398586"
 
 graceful-fs@^4.2.4:
   version "4.2.4"
