@@ -9,7 +9,7 @@ export enum ShaderCompileMode{
 }
 
 export type PixelSize = 1|2|4|8|16|32;
-export type PlaySpeed = 0.25|0.5|1.0|1.5|2.0|4.0;
+export type PlaySpeed = 0.25|0.5|1.0|1.5|2.0|4.0|8.0|16.0|32.0|64.0;
 
 export class ShaderEditorSettings {
     languageMode:ShaderLanguageMode;
